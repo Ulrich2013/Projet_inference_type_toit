@@ -10,7 +10,7 @@ Introduit en 2015 par des chercheurs de Microsoft Research, ResNet-50 est rapide
 
 L'une des principales caractéristiques de ResNet-50 est son utilisation des connexions résiduelles, également connues sous le nom de connexions raccourcies. Il s'agit de voies simples qui permettent au modèle de sauter certaines étapes du processus d'apprentissage. En d'autres termes, au lieu d'obliger le modèle à faire passer l'information par chaque couche, ces raccourcis lui permettent de transmettre les détails importants plus directement. L'apprentissage est ainsi plus rapide et plus fiable.
 
-
+<img width="1364" height="560" alt="image" src="https://github.com/user-attachments/assets/91892673-e862-473f-aed4-7bf82ad0238d" />
 
 Cette conception permet de résoudre un problème courant dans le domaine de l'apprentissage profond, appelé "problème du gradient de fuite". Dans les modèles très profonds, des informations importantes peuvent se perdre au fur et à mesure qu'elles traversent de nombreuses couches, ce qui complique l'apprentissage du modèle. 
 
