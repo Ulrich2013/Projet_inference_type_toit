@@ -12,6 +12,8 @@ L'une des principales caractéristiques de ResNet-50 est son utilisation des con
 
 <img width="1364" height="560" alt="image" src="https://github.com/user-attachments/assets/91892673-e862-473f-aed4-7bf82ad0238d" />
 
+Fig.1.Connexions résiduelles dans l'architecture ResNet.
+
 Cette conception permet de résoudre un problème courant dans le domaine de l'apprentissage profond, appelé "problème du gradient de fuite". Dans les modèles très profonds, des informations importantes peuvent se perdre au fur et à mesure qu'elles traversent de nombreuses couches, ce qui complique l'apprentissage du modèle. 
 
 # Aperçu du fonctionnement de ResNet-50
@@ -30,7 +32,9 @@ Raccourcis : Il s'agit de chemins simples qui permettent à l'information d'alle
 ‍
 Faire une prédiction: À la fin du réseau, toutes les informations apprises sont combinées et passent par une fonction softmax. Celle-ci produit une distribution de probabilités sur les classes possibles, indiquant la confiance du modèle dans chaque prédiction - par exemple, 90 % de chats, 9 % de chiens, 1 % de voitures.
 
-Fig. 2. L'architecture ResNet-50.
+<img width="1364" height="502" alt="image" src="https://github.com/user-attachments/assets/e14515c9-3fe9-4e32-882e-4b2763ad9113" />
+
+Fig.2. L'architecture ResNet-50.
 
 Les connexions résiduelles permettent d'éviter cela en assurant une circulation claire de l'information du début à la fin. C'est pourquoi le modèle est appelé ResNet-50 : ResNet signifie Residual Network (réseau résiduel), et le chiffre "50" fait référence au nombre de couches utilisées pour traiter une image. 
 
